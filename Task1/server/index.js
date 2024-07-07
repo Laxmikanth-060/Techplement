@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-// const fetch = require("node-fetch"); // Ensure node-fetch is installed
 const app = express();
 
 app.use(express.json());
